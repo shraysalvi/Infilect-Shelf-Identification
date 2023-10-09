@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "4112992c-7d57-490d-ac9f-28eb714d2066",
+		"name": "SHRAY INFILECT TASK",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30368287"
+	},
+	"item": [
+		{
+			"name": "Shelf Identifier",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"matrix\": [\n        [\"G\", \"G\", \"M\", \"M\"],\n        [\"G\", \"G\", \"M\", \"M\"],\n        [\"B\", \"B\", \"N\", \"N\"],\n        [\"B\", \"B\", \"N\", \"N\"]\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/shelf-identifier/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"shelf-identifier",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

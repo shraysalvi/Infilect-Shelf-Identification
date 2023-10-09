@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    image: infilect
+    container_name: infilect
+    ports:
+      - "8000:8000"
